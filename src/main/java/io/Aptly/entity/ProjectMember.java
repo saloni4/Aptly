@@ -1,6 +1,6 @@
-package com.codingshuttle.projects.lovable_clone.entity;
+package io.Aptly.entity;
 
-import com.codingshuttle.projects.lovable_clone.enums.ProjectRole;
+import io.Aptly.enums.ProjectRole;
 
 import java.time.Instant;
 

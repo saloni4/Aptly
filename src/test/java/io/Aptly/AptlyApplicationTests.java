@@ -1,10 +1,10 @@
-package com.codingshuttle.projects.lovable_clone;
+package io.Aptly;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LovableCloneApplicationTests {
+class AptlyApplicationTests {
 
 	@Test
 	void contextLoads() {

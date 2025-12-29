@@ -1,4 +1,4 @@
-package com.codingshuttle.projects.lovable_clone.entity;
+package io.Aptly.entity;
 
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -10,15 +10,14 @@ import java.time.Instant;
 @Getter
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class User {
+public class ChatSession {
 
-    Long id;
+    Project project;
 
-    String email;
-    String passwordHash;
-    String name;
+    User user;
 
-    String avatarUrl;
+    String title;
+
     Instant createdAt;
     Instant updatedAt;
 

@@ -1,4 +1,5 @@
-package com.codingshuttle.projects.lovable_clone.entity;
+package io.Aptly.entity;
+
 
 import lombok.AccessLevel;
 import lombok.Getter;
@@ -10,16 +11,22 @@ import java.time.Instant;
 @Getter
 @Setter
 @FieldDefaults(level = AccessLevel.PRIVATE)
-public class ChatSession {
+public class ProjectFile {
+
+    Long id;
 
     Project project;
 
-    User user;
+    String path;
 
-    String title;
+    String minioObjectKey;
 
     Instant createdAt;
+
     Instant updatedAt;
 
-    Instant deletedAt; //soft delete
+    User createdBy;
+
+    User updatedBy;
+
 }

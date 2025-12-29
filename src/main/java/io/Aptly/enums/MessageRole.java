@@ -1,4 +1,4 @@
-package com.codingshuttle.projects.lovable_clone.enums;
+package io.Aptly.enums;
 
 public enum MessageRole {
     USER, ASSISTANT, SYSTEM, TOOL

@@ -1,4 +1,4 @@
-package com.codingshuttle.projects.lovable_clone.entity;
+package io.Aptly.entity;
 
 import lombok.AccessLevel;
 import lombok.Getter;

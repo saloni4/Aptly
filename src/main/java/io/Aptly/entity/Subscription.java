@@ -1,6 +1,6 @@
-package com.codingshuttle.projects.lovable_clone.entity;
+package io.Aptly.entity;
 
-import com.codingshuttle.projects.lovable_clone.enums.SubscriptionStatus;
+import io.Aptly.enums.SubscriptionStatus;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;

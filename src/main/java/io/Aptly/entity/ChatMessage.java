@@ -1,6 +1,6 @@
-package com.codingshuttle.projects.lovable_clone.entity;
+package io.Aptly.entity;
 
-import com.codingshuttle.projects.lovable_clone.enums.MessageRole;
+import io.Aptly.enums.MessageRole;
 import lombok.AccessLevel;
 import lombok.Getter;
 import lombok.Setter;
